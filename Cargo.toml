@@ -1,0 +1,14 @@
+[package]
+name = "http"
+version = "0.1.0"
+authors = ["Maxim Zhukov <crmaxx@gmail.com>"]
+homepage = "https://github.com/crmaxx/http-rs"
+repository = "https://github.com/crmaxx/http-rs"
+description = "HTTP Client wrapper for wininet"
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+url = "~1.6"
+conv = "~0.3"
+winapi = { version = "~0.3", features = ["minwindef", "wininet", "winnt"] }
